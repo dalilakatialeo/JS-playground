@@ -19,14 +19,17 @@
         </div>
         <div id="meme-builder">
             <div id="meme-image-wrapper">
-                <img id= "meme-image" src="http://www.automatingsuccess.com/wp-content/uploads/2014/11/Very-excited-kid.jpg" />
-                <h2 id="top-text"></h2></h2>
+                <h2 id="top-text"></h2>
+                <h2 id="bottom-text"></h2>
             </div>
             <div id="top-text-wrapper" class="inputs">
-                <input id="top-text-input" type="text" placeholder ="Top text." />
+                <input id="top-text-input" type="text" placeholder ="Top text" />
                 <input type="button" value="Submit" onclick="addTopText()"/>
             </div>
-            <div id="bottom-text-wrapper" class="inputs"></div>
+            <div id="bottom-text-wrapper" class="inputs">
+                <input id="bottom-text-input" type="text" placeholder ="Bottom text" />
+                <input type="button" value="Submit" onclick="addBottomText()"/>
+            </div>
         </div>
 
         <script src="script.js"></script>
