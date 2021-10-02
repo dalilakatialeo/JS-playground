@@ -49,3 +49,13 @@ for (let index = 0; index < pets.length; index++) {
 pets.forEach(pet => {
     console.log(pet);
 });
+
+let pet = "Ivy";
+
+if (pet == "Chilli") {
+    console.log("OMG you are the cutest!");
+} else if (pet == "Ivy") {
+    console.log("Naaaaaw cute bow.");
+} else {
+    console.log("OMG so cute.");
+}
