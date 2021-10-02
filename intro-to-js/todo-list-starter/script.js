@@ -64,8 +64,6 @@ function updateTodoList() {
     });
 }
 
-function createNewTodoItemElement(todoItem, index) {}
-
 function toggleComplete(index) {
     if (todoTasksStatus[index] == false) {
         todoTasksStatus[index] = true;
